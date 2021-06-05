@@ -9,17 +9,19 @@ import UIKit
 
 class DetailsViewController: UIViewController {
 
-    
+    //MARK:- outlets
     @IBOutlet weak var userId: UILabel!
     
     @IBOutlet weak var detailLabel: UILabel!
     
     @IBOutlet weak var completedLabel: UILabel!
     
+    //Mark:- Variables
     var userID:String?
     var detailText:String?
     var completedText:String?
     
+    //MARK:- View life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
